@@ -46,7 +46,9 @@ body {
 
 .homepage-description {
   background-color: black;
-  margin-left: 287px;
+  margin: 0 auto;
+
+  /*margin-left: 287px;*/
 }
 .wrapper {
   display: flex;
@@ -88,6 +90,12 @@ body {
   position: absolute;
   border-radius: 50%;
   margin-left: 190px;
+  display: block;
+  overflow: hidden;
+}
+.ufo {
+  display: block;
+  overflow: hidden;
 }
 .gsap-animation {
   overflow: hidden;

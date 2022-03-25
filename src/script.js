@@ -94,10 +94,6 @@ const flightPath2 = {
   values: [
     { x: 200, y: 100 },
     { x: 300, y: 90 },
-    { x: 400, y: 100 },
-    { x: 500, y: 90 },
-    { x: 600, y: 100 },
-    { x: window.innerWidth, y: 90 },
   ],
 };
 
@@ -113,7 +109,7 @@ tween.add(
 );
 //UFO animation
 tween2.add(
-  TweenLite.to(".ufo", 50, {
+  TweenLite.to(".ufo", 5, {
     bezier: flightPath2,
     ease: Power1.easeInOut,
   })
