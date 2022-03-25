@@ -89,6 +89,9 @@ body {
   border-radius: 50%;
   margin-left: 190px;
 }
+.gsap-animation {
+  overflow: hidden;
+}
 
 .projects {
   text-align: center;
@@ -140,6 +143,7 @@ h1 {
 .curved {
   background-color: black;
   margin-top: 60px;
+  overflow: hidden;
 }
 
 @media (max-width: 600px) {
@@ -148,5 +152,8 @@ h1 {
   }
   .homepage-description {
     margin: 0 auto;
+  }
+  body {
+    overflow-x: hidden;
   }
 }
