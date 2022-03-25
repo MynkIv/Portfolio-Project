@@ -1,0 +1,141 @@
+@font-face {
+  src: url("../fonts/PressStart2P-Regular.ttf");
+  font-family: "themeFont";
+  font-style: normal;
+  font-weight: 100;
+}
+@font-face {
+  src: url("../fonts/Rajdhani-Regular.ttf");
+  font-family: "spaceFont";
+}
+@font-face {
+  src: url("../fonts/Anton-Regular.ttf");
+  font-family: "thirdFont";
+}
+
+body {
+  background-color: black;
+  overflow-x: hidden;
+}
+.canvas {
+  width: 100vw;
+  text-align: center;
+}
+
+.text {
+  color: white;
+  margin-top: 100px;
+  font-family: "themeFont";
+  margin-left: 75px;
+  margin-right: 0;
+}
+
+.mynklinks,
+.mynknav {
+  background-color: RGBA(0, 0, 0, 0.81) !important;
+  font-family: "themeFont" !important;
+  color: white !important;
+  font-size: 10px !important;
+}
+
+.mynklinks,
+.mynknav :hover {
+  color: #8641c4 !important;
+}
+
+.homepage-description {
+  background-color: black;
+}
+.wrapper {
+  display: flex;
+}
+.im-a {
+  color: #ab47bc;
+  font-size: 35px;
+  display: inline-flex;
+  margin-right: -20px;
+  margin-top: -17px;
+}
+.job-description {
+  list-style: none;
+  color: white;
+  font-size: 20px;
+  margin-top: -4px;
+}
+.job-description li span {
+  position: relative;
+}
+.job-description li span::after {
+  content: "";
+  left: 0;
+  position: absolute;
+  height: 125%;
+  width: 100%;
+  background: #000;
+  border-left: 2px solid white;
+  animation: typing 1.5s steps(17) infinite;
+}
+@keyframes typing {
+  100% {
+    left: 100%;
+    margin: 0 -35px 0 35px;
+  }
+}
+
+.moon {
+  position: absolute;
+  border-radius: 50%;
+  margin-left: 190px;
+}
+
+.projects {
+  text-align: center;
+  font-family: "themeFont";
+  color: white;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+h1 {
+  font-size: 50px;
+  position: relative;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #8641c4,
+      0 0 40px #8641c4, 0 0 50px #8641c4, 0 0 60px #8641c4, 0 0 70px #8641c4;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ab47bc, 0 0 40px #ab47bc,
+      0 0 50px #ab47bc, 0 0 60px #ab47bc, 0 0 70px #ab47bc, 0 0 80px #ab47bc;
+  }
+}
+
+.mynk-carousel {
+  margin: 0 auto;
+  max-width: 50vw;
+  text-align: center !important;
+}
+.project {
+  width: 700px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.projectDetails {
+  font-family: "thirdFont";
+  background-color: #000000d0;
+  color: white;
+  border-radius: 5px;
+  width: 268px;
+  margin: 0 auto;
+}
+.curved {
+  background-color: black;
+  margin-top: 60px;
+}
