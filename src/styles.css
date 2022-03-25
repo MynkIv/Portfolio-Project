@@ -18,7 +18,7 @@ body {
   overflow-x: hidden;
 }
 .canvas {
-  width: 100vw;
+  width: 100%;
   text-align: center;
 }
 
