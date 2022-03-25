@@ -146,6 +146,6 @@ h1 {
     font-size: 35px;
   }
   .homepage-description {
-    margin-left: 40px;
+    margin: 0 auto;
   }
 }
