@@ -45,6 +45,7 @@ body {
 
 .homepage-description {
   background-color: black;
+  margin-left: 287px;
 }
 .wrapper {
   display: flex;
@@ -143,5 +144,8 @@ h1 {
 @media (max-width: 600px) {
   .h1 {
     font-size: 35px;
+  }
+  .homepage-description {
+    margin-left: 60px;
   }
 }
